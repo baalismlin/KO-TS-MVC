@@ -1,0 +1,6 @@
+**/.vs
+**/App_Data
+**/bin
+**/obj
+**/node_modules
+**/built

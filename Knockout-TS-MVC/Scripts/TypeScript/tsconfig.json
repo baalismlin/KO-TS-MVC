@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms",
+    "**/built"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "outDir": "./built",
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es3",
+    "types": ["node", "jquery", "knockout" ]
+  }
+}
